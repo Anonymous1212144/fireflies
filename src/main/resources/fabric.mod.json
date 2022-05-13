@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fireflies",
+  "version": "${version}",
+  "name": "Fireflies",
+  "description": "Mod that adds firefly-like particles to swamps!",
+  "authors": [
+    "Anonymous1212144"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UCStYbXooQ0OjbKz9d3hWKFA",
+    "issues": "https://github.com/Anonymous1212144/fireflies/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/fireflies/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "clientmods.fireflies.FirefliesClient"
+    ]
+  },
+  "mixins": [
+    "fireflies.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*"
+  }
+}
